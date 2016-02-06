@@ -1,7 +1,9 @@
-    function checkUsersValid(goodUsers) {
-      return function allUsersValid(submittedUsers) {
-        // SOLUTION GOES HERE
-      };
+    function countWords(inputWords) {
+      return inputWords.reduce(function(acc,curr){
+      	if(acc[curr] = curr){
+      		return ++acc[curr]
+      	}else{acc[curr] = 1}
+      },{})
     }
 
-    module.exports = checkUsersValid
+    module.exports = countWords
